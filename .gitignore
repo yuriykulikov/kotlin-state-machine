@@ -5,3 +5,4 @@ hs_err_pid*
 .gradle
 gradle.properties
 build
+local.properties
