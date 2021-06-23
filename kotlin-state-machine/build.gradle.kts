@@ -1,17 +1,15 @@
 import com.vanniktech.maven.publish.SonatypeHost
+import java.util.Properties
+import java.io.FileInputStream
 
 buildscript {
     repositories {
         mavenCentral()
     }
-    dependencies {
-        classpath("com.vanniktech:gradle-maven-publish-plugin:0.15.1")
-    }
 }
 
 plugins {
     kotlin("jvm")
-    id("com.vanniktech.maven.publish")
     id("com.vanniktech.maven.publish.base")
 }
 
